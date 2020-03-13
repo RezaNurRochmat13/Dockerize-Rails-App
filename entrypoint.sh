@@ -6,6 +6,7 @@ cd /usr/src/app/
 
 ls -l
 
+rails db:seed
 rails db:migrate
 
 rails s -b 0.0.0.0
