@@ -9,4 +9,4 @@ ls -l
 rails db:seed
 rails db:migrate
 
-rails s -b 0.0.0.0
+rails s -e production -b 0.0.0.0
